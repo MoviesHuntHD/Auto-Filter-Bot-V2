@@ -37,8 +37,7 @@ async def addchannel(client: Bot, message: Message):
     except:
         await message.reply_text(
             "<i>Enter in correct format!\n\n<code>/add channelid</code>  or\n"
-            "<code>/add @channelusername</code></i>"
-            "\n\nGet Channel id from @ChannelidHEXbot",
+            "<code>/add @channelusername</code></i>",
         )
         return
     try:
